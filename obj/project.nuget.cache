@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8CwPe6sKMNPDxgycNiVH+QBzw+yi+pP+UkvCwnb//KqrD6dg0MQF7/RayXUaMFRI5h/lNyvHs69i7wvoqdEkSw==",
+  "success": true,
+  "projectFilePath": "/home/oliveira/Obabox/Curso ASP/Curso ASP.csproj",
+  "expectedPackageFiles": [
+    "/home/oliveira/.nuget/packages/jquery/3.5.1/jquery.3.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

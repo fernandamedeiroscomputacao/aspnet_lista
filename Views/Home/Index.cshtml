@@ -1,0 +1,32 @@
+﻿@model Curso_ASP.Models.Pessoa
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+    @using(Html.BeginForm("Lista", "Home", FormMethod.Post)){
+        <fieldset>
+            <legend>Informações de Pessoas</legend>
+        </fieldset>
+        <div>
+            @Html.LabelFor(x=>x.PessoaId)
+        </div>
+        <div>
+            @Html.EditorFor(x=>x.PessoaId)
+        </div>
+        <div>
+            @Html.LabelFor(x=>x.Nome)
+        </div>
+        <div>
+            @Html.EditorFor(x=>x.Nome)
+        </div>
+        <div>
+            @Html.LabelFor(x=>x.Tipo)
+        </div>
+        <div>
+            @Html.EditorFor(x=>x.Tipo)
+        </div>
+        <p><input type="submit" value="Enviar"></p>
+    }
+</div>
